@@ -1,1 +1,7 @@
-
+main{
+  width: 80vw;
+  margin: auto;
+  margin-top: 1.68rem;
+  display: flex;
+  justify-content: space-between;
+}
