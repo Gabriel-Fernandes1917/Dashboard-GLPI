@@ -1,8 +1,9 @@
 .mainPainelChamados{
- width: 60vw;
+ width: 70%;
  border: 1px solid black;
  padding: 1.5rem 3rem;
-
+ position: absolute;
+ left: 0;
 }
 
 .mainPainelChamados > h1{

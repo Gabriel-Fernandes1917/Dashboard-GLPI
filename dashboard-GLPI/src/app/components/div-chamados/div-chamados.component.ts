@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DivChamadosComponent implements OnInit{
 
-  iconPeriodo: string ="./img/vector.png";
+  iconPeriodo: string = " ";
 
-  // OnInit(){
-  //   this.iconPeriodo = "./img/vector.png";
-  // }
+  ngOnInit() {
+   this.iconPeriodo = "../../../assets/vector.png";
+  }
 
 }
