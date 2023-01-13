@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DivChamadosComponent implements OnInit{
 
-  iconPeriodo: string = " ";
-
+  chamados: number[] = [8843, 8832, 8821, 8856,8845];
+  iconChamdo: string = "";
+  constructor(){}
   ngOnInit() {
-   this.iconPeriodo = "../../../assets/vector.png";
+
+  }
+
+  getChamado(){
+    
   }
 
 }

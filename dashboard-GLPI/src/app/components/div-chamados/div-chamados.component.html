@@ -2,9 +2,28 @@
   <h1>Chamados</h1>
 
   <div class="periodo">
-    <label for="">Mês</label>
-    <button>
-      <img src="{{iconPeriodo}}" alt="icon">
-    </button>
+    <form action="" method="get">
+      <label for="">Periodo: </label>
+      <input type="date" name="" id="">
+      a
+      <input type="date" name="" id="">
+
+      <input type="submit" value="filtrar">
+    </form>
   </div>
+
+  <div class="abertos">
+    <div class="texto">
+      <h4>Abertos</h4>
+      <output>{{chamados.length}}</output>
+    </div>
+    <div class="chamados">
+      <nav>
+        <ul *ngFor="let item of chamados">
+         <li (click)="getChamado()"> <img src="../../../assets/iconchamado.png" alt=""> {{item}}</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
 </div>
