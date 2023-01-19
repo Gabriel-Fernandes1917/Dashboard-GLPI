@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DivChamadosComponent implements OnInit{
 
-  chamados: number[] = [8843, 8832, 8821, 8856,8845];
+  chamados: number[] = [8843, 8843, 8843, 8843 , 8843, 8843, 8843, 8843, 8843 , 8843];
   iconChamdo: string = "";
   constructor(){}
   ngOnInit() {
@@ -15,7 +15,7 @@ export class DivChamadosComponent implements OnInit{
   }
 
   getChamado(){
-    
+
   }
 
 }
