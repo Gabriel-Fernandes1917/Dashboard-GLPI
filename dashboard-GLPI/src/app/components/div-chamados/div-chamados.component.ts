@@ -15,7 +15,7 @@ export class DivChamadosComponent implements OnInit{
   }
 
   getChamado(){
-
+    alert("clicou no chamado");
   }
 
 }
