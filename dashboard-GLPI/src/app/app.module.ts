@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DivChamadosComponent } from './components/div-chamados/div-chamados.component';
 import { DivAtividadesComponent } from './components/div-atividades/div-atividades.component';
+import { RealizadosComponent } from './components/div-chamados/realizados/realizados.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DivChamadosComponent,
-    DivAtividadesComponent
+    DivAtividadesComponent,
+    RealizadosComponent
   ],
   imports: [
     BrowserModule,
