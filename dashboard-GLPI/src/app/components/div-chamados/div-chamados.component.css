@@ -6,9 +6,8 @@
  left: 0;
 }
 
-.mainPainelChamados > h1{
+.chamados > h1,.setores > h1 {
  text-align: center;
-
 }
 
 .periodo{
@@ -52,7 +51,7 @@
 }
 
 .texto > h4, .texto > div{
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -77,9 +76,12 @@
   cursor: pointer;
 }
 
-.realizados{
-
-
+.setores{
+  margin-top: 1rem;
 }
 
-
+app-setores{
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 2rem;
+}

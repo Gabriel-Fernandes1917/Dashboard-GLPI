@@ -1,40 +1,47 @@
 <div class="mainPainelChamados">
-  <h1>Chamados</h1>
+  <div class="chamados">
+    <h1>Chamados</h1>
 
-  <div class="periodo">
-    <form action="" method="get">
-      <label for="">Periodo: </label>
-      <input type="date" name="" id="">
-      a
-      <input type="date" name="" id="">
+    <div class="periodo">
+      <form action="" method="get">
+        <label for="">Periodo: </label>
+        <input type="date" name="" id="">
+        a
+        <input type="date" name="" id="">
 
-      <input type="submit" value="filtrar">
-    </form>
-  </div>
-  <div class="central">
-    <div class="abertos">
-      <div class="texto">
-          <h4>Abertos</h4>
+        <input type="submit" value="filtrar">
+      </form>
+    </div>
+    <div class="central">
+      <div class="abertos">
+        <div class="texto">
+            <h4>Abertos</h4>
 
-        <div>
           <div>
-            <output>{{chamados.length}}</output>
-          </div>
-          <div>
-            <output>{{demanda}} % <img src="{{iconSeta}}" alt="seta"></output>
+            <div>
+              <output>{{chamados.length}}</output>
+            </div>
+            <div>
+              <output>{{demanda}} % <img src="{{iconSeta}}" alt="seta"></output>
+            </div>
           </div>
         </div>
+        <div class="chamados">
+          <nav>
+            <ul *ngFor="let item of chamados">
+             <li (click)="getChamado()"> {{item}}</li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="chamados">
-        <nav>
-          <ul *ngFor="let item of chamados">
-           <li (click)="getChamado()"> {{item}}</li>
-          </ul>
-        </nav>
-      </div>
+      <app-realizados [chamados]="chamados" [demanda]="demanda" [conSeta]="iconSeta"></app-realizados>
+
     </div>
-    <app-realizados [chamados]="chamados"></app-realizados>
   </div>
 
+  <div class="setores">
+    <h1>Setores</h1>
+  <app-setores *ngFor="let i of [1,2,3,4]" [chamados]="chamados" [demanda]="demanda" [conSeta]="iconSeta"></app-setores>
+  </div>
 
 </div>

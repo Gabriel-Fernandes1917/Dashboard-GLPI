@@ -1,0 +1,15 @@
+.realizados{
+  background-color: #D6C086;
+
+  height: 6rem;
+  width: 11.68rem;
+}
+
+.texto {
+
+  padding-top: 1rem;
+  margin: auto;
+  text-align: center;
+  width: min-content;
+}
+

@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { DivChamadosComponent } from './components/div-chamados/div-chamados.component';
 import { DivAtividadesComponent } from './components/div-atividades/div-atividades.component';
 import { RealizadosComponent } from './components/div-chamados/realizados/realizados.component';
+import { SuporteComponent } from './components/div-chamados/setores/suporte/suporte.component';
+import { SetoresComponent } from './components/div-chamados/setores/setores.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { RealizadosComponent } from './components/div-chamados/realizados/realiz
     HeaderComponent,
     DivChamadosComponent,
     DivAtividadesComponent,
-    RealizadosComponent
+    RealizadosComponent,
+    SuporteComponent,
+    SetoresComponent
   ],
   imports: [
     BrowserModule,

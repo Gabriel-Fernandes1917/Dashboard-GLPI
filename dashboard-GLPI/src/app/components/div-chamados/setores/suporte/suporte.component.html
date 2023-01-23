@@ -1,0 +1,23 @@
+<div class="suporte">
+  <div class="texto">
+    <h4>Suporte</h4>
+
+  <div>
+    <div class="dados">
+      <div>
+        <output>{{chamados.length}}</output>
+      </div>
+      <div>
+        <output>0 % <img src="{{conSeta}}" alt="seta"></output>
+      </div>
+      <div class="chamados">
+        <nav>
+          <ul *ngFor="let item of chamados | slice:0:6;">
+           <li> {{item}}</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
