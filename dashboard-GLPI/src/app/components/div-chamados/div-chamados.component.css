@@ -12,6 +12,7 @@
 
 .periodo{
   margin-top: 1rem;
+
 }
 
 .periodo > form > input[type="date"]{
@@ -31,7 +32,9 @@
 .central{
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  /* outline: 1px dashed black;
+  outline-offset: 0.5rem; */
 }
 
 .abertos{
