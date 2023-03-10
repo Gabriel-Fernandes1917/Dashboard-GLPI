@@ -20,11 +20,11 @@ export class DivChamadosComponent implements OnInit{
 
     this.buscaPeriodo =  [{
       periodo: "novembro",
-      chamados: [333,222,111,555,666,776,776]
+      chamados: [333,222,111]
     },
     {
       periodo: "dezembro",
-      chamados: [222,111,555,666,776,222,111,555,666,776,776]
+      chamados: [222,111,555,111,555]
     }];
 
 

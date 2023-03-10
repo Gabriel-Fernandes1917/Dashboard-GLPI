@@ -10,5 +10,5 @@ export class SetoresComponent {
   @Input() chamados: number[];
   @Input() conSeta: string;
   @Input() demanda: number | string;
-  
+
 }
